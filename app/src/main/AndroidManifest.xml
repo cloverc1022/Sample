@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mmc.sampletest">
 
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -29,7 +29,9 @@
         <activity android:name=".customActivity.BezierActivity" />
         <activity android:name=".customActivity.BezierTestActivity" />
         <activity android:name=".RecycleViewTest.RecycleTestActivity" />
-        <activity android:name=".RecycleViewTest.SectionActivity"></activity>
+        <activity android:name=".RecycleViewTest.SectionActivity" />
+        <activity android:name=".moveTest.MoveTestActivity" />
+        <activity android:name=".jsTest.JsTestActivity"></activity>
     </application>
 
 </manifest>

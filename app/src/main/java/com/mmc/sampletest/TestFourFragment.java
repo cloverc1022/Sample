@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 
 import com.mmc.sampletest.RecycleViewTest.RecycleTestActivity;
 import com.mmc.sampletest.RecycleViewTest.SectionActivity;
+import com.mmc.sampletest.jsTest.JsTestActivity;
+import com.mmc.sampletest.moveTest.MoveTestActivity;
 
 /**
  * Created by 上海滩小马哥 on 2018/01/16.
@@ -38,6 +40,20 @@ public class TestFourFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), SectionActivity.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), MoveTestActivity.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), JsTestActivity.class);
                 startActivity(intent);
             }
         });
