@@ -15,6 +15,7 @@ import com.mmc.sampletest.customActivity.CanvasTestActivity;
 import com.mmc.sampletest.customActivity.CircleActivity;
 import com.mmc.sampletest.customActivity.DrawBitmapMeshActivity;
 import com.mmc.sampletest.customActivity.EraserActivity;
+import com.mmc.sampletest.customActivity.TestActivity;
 
 /**
  * Created by 上海滩小马哥 on 2017/10/9.
@@ -22,7 +23,7 @@ import com.mmc.sampletest.customActivity.EraserActivity;
 
 public class TestTwoFragment extends Fragment implements View.OnClickListener {
 
-    private Button eraser, circle, drawBitmapMesh, canvas, Bezier, Bezier_Test;
+    private Button eraser, circle, drawBitmapMesh, canvas, Bezier, Bezier_Test, clock;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -40,6 +41,8 @@ public class TestTwoFragment extends Fragment implements View.OnClickListener {
         canvas = (Button) view.findViewById(R.id.canvas);
         Bezier = (Button) view.findViewById(R.id.Bezier);
         Bezier_Test = (Button) view.findViewById(R.id.Bezier_Test);
+        Bezier_Test = (Button) view.findViewById(R.id.Bezier_Test);
+        clock = (Button) view.findViewById(R.id.clock);
 
         eraser.setOnClickListener(this);
         circle.setOnClickListener(this);
@@ -47,6 +50,7 @@ public class TestTwoFragment extends Fragment implements View.OnClickListener {
         canvas.setOnClickListener(this);
         Bezier.setOnClickListener(this);
         Bezier_Test.setOnClickListener(this);
+        clock.setOnClickListener(this);
     }
 
     @Override
@@ -70,6 +74,9 @@ public class TestTwoFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.Bezier_Test:
                 intent.setClass(getActivity(), BezierTestActivity.class);
+                break;
+                case R.id.clock:
+                intent.setClass(getActivity(), TestActivity.class);
                 break;
             default:
                 break;

@@ -52,4 +52,12 @@
         android:layout_marginTop="10dp"
         android:text="Bézier_Test" />
 
+    <Button
+        android:id="@+id/clock"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="clock" />
+
 </LinearLayout>

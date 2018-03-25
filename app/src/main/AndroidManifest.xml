@@ -31,7 +31,8 @@
         <activity android:name=".RecycleViewTest.RecycleTestActivity" />
         <activity android:name=".RecycleViewTest.SectionActivity" />
         <activity android:name=".moveTest.MoveTestActivity" />
-        <activity android:name=".jsTest.JsTestActivity"></activity>
+        <activity android:name=".jsTest.JsTestActivity" />
+        <activity android:name=".customActivity.TestActivity"></activity>
     </application>
 
 </manifest>
