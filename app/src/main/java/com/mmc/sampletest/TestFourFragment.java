@@ -13,6 +13,7 @@ import com.mmc.sampletest.RecycleViewTest.RecycleTestActivity;
 import com.mmc.sampletest.RecycleViewTest.SectionActivity;
 import com.mmc.sampletest.customview.BrightnessSetPop;
 import com.mmc.sampletest.jsTest.JsTestActivity;
+import com.mmc.sampletest.mapTest.MapTestActivity;
 import com.mmc.sampletest.moveTest.MoveTestActivity;
 
 /**
@@ -62,7 +63,6 @@ public class TestFourFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         popButton = (Button) view.findViewById(R.id.button5);
         popButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,6 +80,13 @@ public class TestFourFragment extends Fragment {
                     });
                 }
                 brightnessSetPop.showUpRise(popButton, 50);
+            }
+        });
+        view.findViewById(R.id.button6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), MapTestActivity.class);
+                startActivity(intent);
             }
         });
     }

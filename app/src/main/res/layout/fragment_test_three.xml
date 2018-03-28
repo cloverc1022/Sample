@@ -45,6 +45,8 @@
                 android:scaleType="fitXY"
                 android:src="@mipmap/pic_11"
                 android:visibility="gone" />
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
