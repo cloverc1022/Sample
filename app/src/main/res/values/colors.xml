@@ -8,4 +8,9 @@
     <color name="black">#000000</color>
     <color name="dialog_gb">#55000000</color>
     <color name="progress_gray">#c8c8c8</color>
+    <color name="color_1">#f06292</color>
+    <color name="color_2">#ba68c8</color>
+    <color name="color_3">#9575cd</color>
+    <color name="color_4">#7986cb</color>
+    <color name="color_5">#64b5f6</color>
 </resources>

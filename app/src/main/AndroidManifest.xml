@@ -34,8 +34,10 @@
         <activity android:name=".RecycleViewTest.SectionActivity" />
         <activity android:name=".moveTest.MoveTestActivity" />
         <activity android:name=".jsTest.JsTestActivity" />
-        <activity android:name=".customActivity.TestActivity"></activity>
-        <activity android:name=".mapTest.MapTestActivity"></activity>
+        <activity android:name=".customActivity.TestActivity" />
+        <activity android:name=".mapTest.MapTestActivity" />
+        <activity android:name=".dispatchTouchTest.DispatchTouchTestActivity" />
+        <activity android:name=".SlidingConflictTest.SlidingConflictActivity"></activity>
     </application>
 
 </manifest>

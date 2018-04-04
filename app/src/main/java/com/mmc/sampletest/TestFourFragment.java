@@ -11,7 +11,9 @@ import android.widget.Button;
 
 import com.mmc.sampletest.RecycleViewTest.RecycleTestActivity;
 import com.mmc.sampletest.RecycleViewTest.SectionActivity;
+import com.mmc.sampletest.SlidingConflictTest.SlidingConflictActivity;
 import com.mmc.sampletest.customview.BrightnessSetPop;
+import com.mmc.sampletest.dispatchTouchTest.DispatchTouchTestActivity;
 import com.mmc.sampletest.jsTest.JsTestActivity;
 import com.mmc.sampletest.mapTest.MapTestActivity;
 import com.mmc.sampletest.moveTest.MoveTestActivity;
@@ -86,6 +88,20 @@ public class TestFourFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), MapTestActivity.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.button7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), DispatchTouchTestActivity.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), SlidingConflictActivity.class);
                 startActivity(intent);
             }
         });
