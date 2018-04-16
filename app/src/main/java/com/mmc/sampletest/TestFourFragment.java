@@ -17,6 +17,7 @@ import com.mmc.sampletest.dispatchTouchTest.DispatchTouchTestActivity;
 import com.mmc.sampletest.jsTest.JsTestActivity;
 import com.mmc.sampletest.mapTest.MapTestActivity;
 import com.mmc.sampletest.moveTest.MoveTestActivity;
+import com.mmc.sampletest.sqliteTest.SqliteTestActivity;
 
 /**
  * Created by 上海滩小马哥 on 2018/01/16.
@@ -102,6 +103,13 @@ public class TestFourFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), SlidingConflictActivity.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.button9).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), SqliteTestActivity.class);
                 startActivity(intent);
             }
         });

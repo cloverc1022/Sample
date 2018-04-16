@@ -37,7 +37,8 @@
         <activity android:name=".customActivity.TestActivity" />
         <activity android:name=".mapTest.MapTestActivity" />
         <activity android:name=".dispatchTouchTest.DispatchTouchTestActivity" />
-        <activity android:name=".SlidingConflictTest.SlidingConflictActivity"></activity>
+        <activity android:name=".SlidingConflictTest.SlidingConflictActivity" />
+        <activity android:name=".sqliteTest.SqliteTestActivity"></activity>
     </application>
 
 </manifest>
