@@ -1,4 +1,4 @@
-package com.mmc.sampletest.Singleton;
+package com.mmc.sampletest.DesignPatterns.Singleton;
 /**
  * 静态内部类
  * 根据 静态内部类 的特性，同时解决了按需加载、线程安全的问题，同时实现简洁

@@ -1,4 +1,4 @@
-package com.mmc.sampletest.Singleton;
+package com.mmc.sampletest.DesignPatterns.Singleton;
 
 /**
  * 懒汉式

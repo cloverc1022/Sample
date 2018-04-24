@@ -1,4 +1,4 @@
-package com.mmc.sampletest.Singleton;
+package com.mmc.sampletest.DesignPatterns.Singleton;
 /**
  * 枚举式
  * 最简洁、易用 的单例实现方式

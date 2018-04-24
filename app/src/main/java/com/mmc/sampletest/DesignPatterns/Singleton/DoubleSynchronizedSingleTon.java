@@ -1,4 +1,4 @@
-package com.mmc.sampletest.Singleton;
+package com.mmc.sampletest.DesignPatterns.Singleton;
 /**
  * 双重校验锁
  * 在同步锁的基础上，添加1层 if判断：若单例已创建，则不需再执行加锁操作就可获取实例，从而提高性能

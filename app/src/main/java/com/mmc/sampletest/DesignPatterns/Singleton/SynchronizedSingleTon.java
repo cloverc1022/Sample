@@ -1,4 +1,4 @@
-package com.mmc.sampletest.Singleton;
+package com.mmc.sampletest.DesignPatterns.Singleton;
 /**
  * 同步锁
  * 使用同步锁 synchronized锁住 创建单例的方法 ，防止多个线程同时调用，从而避免造成单例被多次创建
