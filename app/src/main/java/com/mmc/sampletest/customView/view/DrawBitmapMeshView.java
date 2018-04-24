@@ -1,4 +1,4 @@
-package com.mmc.sampletest.customview;
+package com.mmc.sampletest.customView.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;

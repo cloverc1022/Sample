@@ -1,15 +1,15 @@
-package com.mmc.sampletest.customActivity;
+package com.mmc.sampletest.customView;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.mmc.sampletest.R;
 
-public class EraserActivity extends AppCompatActivity {
+public class CircleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_eraser);
+        setContentView(R.layout.activity_circle);
     }
 }

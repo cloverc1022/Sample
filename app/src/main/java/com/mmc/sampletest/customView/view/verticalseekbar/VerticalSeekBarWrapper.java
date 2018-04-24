@@ -14,7 +14,7 @@
  *    limitations under the License.
  */
 
-package com.mmc.sampletest.customview.verticalseekbar;
+package com.mmc.sampletest.customView.view.verticalseekbar;
 
 import android.content.Context;
 import android.support.v4.view.ViewCompat;

@@ -9,13 +9,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.mmc.sampletest.customActivity.BezierActivity;
-import com.mmc.sampletest.customActivity.BezierTestActivity;
-import com.mmc.sampletest.customActivity.CanvasTestActivity;
-import com.mmc.sampletest.customActivity.CircleActivity;
-import com.mmc.sampletest.customActivity.DrawBitmapMeshActivity;
-import com.mmc.sampletest.customActivity.EraserActivity;
-import com.mmc.sampletest.customActivity.TestActivity;
+import com.mmc.sampletest.customView.BezierActivity;
+import com.mmc.sampletest.customView.BezierTestActivity;
+import com.mmc.sampletest.customView.CanvasTestActivity;
+import com.mmc.sampletest.customView.CircleActivity;
+import com.mmc.sampletest.customView.DrawBitmapMeshActivity;
+import com.mmc.sampletest.customView.EraserActivity;
+import com.mmc.sampletest.customView.TestActivity;
+import com.mmc.sampletest.customView.view.BrightnessSetPop;
 
 /**
  * Created by 上海滩小马哥 on 2017/10/9.
@@ -24,6 +25,9 @@ import com.mmc.sampletest.customActivity.TestActivity;
 public class TestTwoFragment extends Fragment implements View.OnClickListener {
 
     private Button eraser, circle, drawBitmapMesh, canvas, Bezier, Bezier_Test, clock;
+    private BrightnessSetPop brightnessSetPop;
+    private Button popButton;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -43,7 +47,8 @@ public class TestTwoFragment extends Fragment implements View.OnClickListener {
         Bezier_Test = (Button) view.findViewById(R.id.Bezier_Test);
         Bezier_Test = (Button) view.findViewById(R.id.Bezier_Test);
         clock = (Button) view.findViewById(R.id.clock);
-
+        popButton = (Button) view.findViewById(R.id.button5);
+        popButton.setOnClickListener(this);
         eraser.setOnClickListener(this);
         circle.setOnClickListener(this);
         drawBitmapMesh.setOnClickListener(this);
@@ -75,8 +80,23 @@ public class TestTwoFragment extends Fragment implements View.OnClickListener {
             case R.id.Bezier_Test:
                 intent.setClass(getActivity(), BezierTestActivity.class);
                 break;
-                case R.id.clock:
+            case R.id.clock:
                 intent.setClass(getActivity(), TestActivity.class);
+                break;
+            case R.id.button5:
+                if (brightnessSetPop == null) {
+                    brightnessSetPop = new BrightnessSetPop(getActivity(), new BrightnessSetPop.OnValueChangedListener() {
+                        @Override
+                        public void onValueChanged(int value) {
+
+                        }
+
+                        @Override
+                        public void onDismiss() {
+                        }
+                    });
+                }
+                brightnessSetPop.showUpRise(popButton, 50);
                 break;
             default:
                 break;

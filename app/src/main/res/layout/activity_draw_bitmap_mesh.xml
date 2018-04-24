@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mmc.sampletest.customActivity.DrawBitmapMeshActivity">
+    tools:context="com.mmc.sampletest.customView.DrawBitmapMeshActivity">
 
-    <com.mmc.sampletest.customview.DrawBitmapMeshView
+    <com.mmc.sampletest.customView.view.DrawBitmapMeshView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

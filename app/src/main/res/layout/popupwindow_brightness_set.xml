@@ -14,11 +14,11 @@
         android:scaleType="centerInside"
         android:src="@mipmap/icon_brightness_high" />
 
-    <com.mmc.sampletest.customview.verticalseekbar.VerticalSeekBarWrapper
+    <com.mmc.sampletest.customView.view.verticalseekbar.VerticalSeekBarWrapper
         android:layout_width="wrap_content"
         android:layout_height="120dp">
 
-        <com.mmc.sampletest.customview.verticalseekbar.VerticalSeekBar
+        <com.mmc.sampletest.customView.view.verticalseekbar.VerticalSeekBar
             android:id="@+id/seekbar"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -26,7 +26,7 @@
             android:splitTrack="false"
             android:thumb="@drawable/seekbar_thumb"
             app:seekBarRotation="CW270" />
-    </com.mmc.sampletest.customview.verticalseekbar.VerticalSeekBarWrapper>
+    </com.mmc.sampletest.customView.view.verticalseekbar.VerticalSeekBarWrapper>
 
     <ImageView
         android:layout_width="30dp"

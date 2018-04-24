@@ -65,12 +65,20 @@ public class SectionActivity extends AppCompatActivity {
         recyclerView_one.addItemDecoration(new SectionDecoration(this, new SectionDecoration.DecorationCallback() {
             @Override
             public String getFristLetter(int position) {
-                return Trans2PinYin.trans2PinYin(data.get(position)).substring(0, 1).toUpperCase();
+                if (data.size() == 0){
+                    return null;
+                }else {
+                    return Trans2PinYin.trans2PinYin(data.get(position)).substring(0, 1).toUpperCase();
+                }
             }
 
             @Override
             public long getGroupId(int position) {
-                return Character.toUpperCase(Trans2PinYin.trans2PinYin(data.get(position)).toUpperCase().charAt(0));
+                if (data.size() == 0){
+                    return 0;
+                }else {
+                    return Character.toUpperCase(Trans2PinYin.trans2PinYin(data.get(position)).toUpperCase().charAt(0));
+                }
             }
         }));
         recyclerView_one.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));

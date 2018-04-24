@@ -8,8 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.mmc.sampletest.customview.OneFourTestView;
-import com.mmc.sampletest.customview.SweepGradientView;
+import com.mmc.sampletest.customView.view.OneFourTestView;
 
 /**
  * Created by 上海滩小马哥 on 2017/10/9.

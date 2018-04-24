@@ -1,4 +1,4 @@
-package com.mmc.sampletest.customview;
+package com.mmc.sampletest.customView.view;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;

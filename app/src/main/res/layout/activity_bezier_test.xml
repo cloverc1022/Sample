@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mmc.sampletest.customActivity.BezierTestActivity">
+    tools:context="com.mmc.sampletest.customView.BezierTestActivity">
 
-    <com.mmc.sampletest.customview.BezierTestView
+    <com.mmc.sampletest.customView.view.BezierTestView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

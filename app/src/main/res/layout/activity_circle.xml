@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mmc.sampletest.customActivity.CircleActivity">
+    tools:context="com.mmc.sampletest.customView.CircleActivity">
 
-    <com.mmc.sampletest.customview.CircleView
+    <com.mmc.sampletest.customView.view.CircleView
         android:layout_width="match_parent"
         android:layout_height="300dp" />
 </android.support.constraint.ConstraintLayout>

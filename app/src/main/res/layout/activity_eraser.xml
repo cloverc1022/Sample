@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mmc.sampletest.customActivity.EraserActivity">
+    tools:context="com.mmc.sampletest.customView.EraserActivity">
 
-    <com.mmc.sampletest.customview.EraserView
+    <com.mmc.sampletest.customView.view.EraserView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

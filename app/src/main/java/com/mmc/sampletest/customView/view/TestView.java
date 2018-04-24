@@ -1,17 +1,12 @@
-package com.mmc.sampletest.customview;
+package com.mmc.sampletest.customView.view;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.ColorMatrix;
-import android.graphics.ColorMatrixColorFilter;
-import android.graphics.LightingColorFilter;
 import android.graphics.Paint;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffColorFilter;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;

@@ -1,4 +1,4 @@
-package com.mmc.sampletest.customActivity;
+package com.mmc.sampletest.customView;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

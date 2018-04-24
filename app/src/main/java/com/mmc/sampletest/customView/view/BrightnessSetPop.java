@@ -1,4 +1,4 @@
-package com.mmc.sampletest.customview;
+package com.mmc.sampletest.customView.view;
 
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;
@@ -11,7 +11,7 @@ import android.widget.PopupWindow;
 import android.widget.SeekBar;
 
 import com.mmc.sampletest.R;
-import com.mmc.sampletest.customview.verticalseekbar.VerticalSeekBar;
+import com.mmc.sampletest.customView.view.verticalseekbar.VerticalSeekBar;
 import com.mmc.sampletest.utils.DisplayUtil;
 
 
