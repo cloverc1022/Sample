@@ -65,7 +65,7 @@ public class SectionActivity extends AppCompatActivity {
         recyclerView_one.addItemDecoration(new SectionDecoration(this, new SectionDecoration.DecorationCallback() {
             @Override
             public String getFristLetter(int position) {
-                if (data.size() == 0){
+                if (data.size() <= position){
                     return null;
                 }else {
                     return Trans2PinYin.trans2PinYin(data.get(position)).substring(0, 1).toUpperCase();
@@ -74,7 +74,7 @@ public class SectionActivity extends AppCompatActivity {
 
             @Override
             public long getGroupId(int position) {
-                if (data.size() == 0){
+                if (data.size() <= position){
                     return 0;
                 }else {
                     return Character.toUpperCase(Trans2PinYin.trans2PinYin(data.get(position)).toUpperCase().charAt(0));

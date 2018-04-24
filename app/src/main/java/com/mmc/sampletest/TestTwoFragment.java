@@ -97,7 +97,7 @@ public class TestTwoFragment extends Fragment implements View.OnClickListener {
                     });
                 }
                 brightnessSetPop.showUpRise(popButton, 50);
-                break;
+                return;
             default:
                 break;
         }
