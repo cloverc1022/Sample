@@ -3,17 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
         android:layout_height="wrap_content">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
-            android:layout_height="wrap_content">
+            android:orientation="vertical">
+
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
@@ -54,34 +55,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="dispatch_Touch"/>
+                android:text="dispatch_Touch" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Sliding_Conflict"/>
+                android:text="Sliding_Conflict" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="sqlite_test"/>
+                android:text="sqlite_test" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="windowMananger"/>
+                android:text="windowMananger" />
+
             <Button
                 android:id="@+id/button11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Fingerprint"/>
+                android:text="Fingerprint" />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

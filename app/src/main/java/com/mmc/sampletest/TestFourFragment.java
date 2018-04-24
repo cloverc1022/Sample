@@ -13,6 +13,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.mmc.sampletest.Fingerprint.FingerprintTestActivity;
 import com.mmc.sampletest.RecycleViewTest.RecycleTestActivity;
 import com.mmc.sampletest.RecycleViewTest.SectionActivity;
 import com.mmc.sampletest.SlidingConflictTest.SlidingConflictActivity;
@@ -105,6 +106,13 @@ public class TestFourFragment extends Fragment {
                 params.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL| WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED;
                 params.gravity = Gravity.TOP|Gravity.START;
                 getActivity().getWindowManager().addView(imageView, params);
+            }
+        });
+        view.findViewById(R.id.button11).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), FingerprintTestActivity.class);
+                startActivity(intent);
             }
         });
     }
