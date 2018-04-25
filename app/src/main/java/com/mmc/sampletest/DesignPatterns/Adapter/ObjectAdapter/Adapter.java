@@ -2,6 +2,9 @@ package com.mmc.sampletest.DesignPatterns.Adapter.ObjectAdapter;
 
 import com.mmc.sampletest.DesignPatterns.Adapter.ClassAdapter.Target;
 
+/**
+ * 对象适配模式
+ */
 public class Adapter implements Target {
 
     private Sourse sourse;
